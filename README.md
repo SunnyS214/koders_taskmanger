@@ -48,51 +48,6 @@ A full-stack task management application with role-based access control, real-ti
 - Socket.IO
 - Bcrypt
 
-## 📁 Project Structure
-
-```
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── TaskCard.jsx
-│   │   │   ├── TaskForm.jsx
-│   │   │   └── ProtectedRoute.jsx
-│   │   ├── pages/
-│   │   │   ├── Dashboard.jsx
-│   │   │   ├── Login.jsx
-│   │   │   └── Signup.jsx
-│   │   ├── api/
-│   │   │   ├── axios.js
-│   │   │   └── socket.js
-│   │   ├── context/
-│   │   │   └── AuthContext.jsx
-│   │   └── App.jsx
-│   ├── public/
-│   ├── .env
-│   ├── package.json
-│   └── README.md
-│
-├── backend/
-│   ├── src/
-│   │   ├── controllers/
-│   │   │   ├── auth.controller.js
-│   │   │   └── task.controller.js
-│   │   ├── models/
-│   │   │   ├── User.js
-│   │   │   └── Task.js
-│   │   ├── routes/
-│   │   │   ├── auth.routes.js
-│   │   │   └── task.routes.js
-│   │   ├── middlewares/
-│   │   │   ├── auth.middleware.js
-│   │   │   └── role.middleware.js
-│   │   └── config/
-│   │       └── db.js
-│   ├── server.js
-│   ├── .env
-│   └── package.json
-```
-
 ## 🔧 Installation & Setup
 
 ### Prerequisites
@@ -122,13 +77,7 @@ npm install
 npm start
 ```
 
-Create `.env` file:
-```env
-PORT=5000
-MONGODB_URI=mongodb://localhost:27017/taskmanager
-JWT_SECRET=your_jwt_secret
-JWT_EXPIRE=7d
-```
+
 
 ## 🚀 Deployment
 
